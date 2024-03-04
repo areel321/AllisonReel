@@ -8,17 +8,6 @@ h1 {
 	font-weight: bold;
 }
 
-.another-heading {
-	color: green;
-}
-
-.heading {
-	color: red;
-	font-size: 40px;
-}
-
-
-
 p {
 	background-color: pink;
 }
@@ -27,12 +16,3 @@ button {
 	background-color: pink;
 }
 
-.important {
-	font-weight: bold;
-	background-color: yellow;
-}
-
-#special {
-	color: blue;
-	font-style: italic;
-}
