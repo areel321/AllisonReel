@@ -8,8 +8,16 @@ h1 {
   font-weight: bold;
 }
 
+h2{
+  color: #FEC9C9;
+  font-weight: bolder;
+}
+
 p {
   background-color: #AFC7D0;
+  border: 10px;
+  border-radius: 12px;
+  padding: 1px 6px;
 }
 
 
@@ -26,8 +34,8 @@ p {
   margin: 4px 2px;
 }*/
 
-a:link, a:visited {
-  background-color: pink;
+a:link, a:visited, .button {
+  background-color: #F9665E;
   border: 15px;
   border-radius: 12px;
   border-color: black;
