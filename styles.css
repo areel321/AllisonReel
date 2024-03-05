@@ -18,7 +18,6 @@ button {
 }
 
 a.button {
-	display: flex;
 	background-color: pink;
 }
 
