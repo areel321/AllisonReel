@@ -1,20 +1,22 @@
 body {
-  background-color: rgb(233, 237, 233);
+  background-color: /*rgb(233, 237, 233)*/ #EEF1E6;
   font-family: sans-serif;
 }
 
 h1 {
-  color: lightblue;
+  color: /*lightblue*/ #799FCB;
   font-weight: bold;
 }
 
 p {
-  background-color: pink;
+  background-color: /*pink*/#AFC7D0;
+  border: 10px;
+  border-radius: 12px;
 }
 
 
 /*.button {
-  background-color: pink;
+  background-color: /*pink*/ #F9665E;
   border: 10px;
   border-radius: 12px;
   color: black;
@@ -26,7 +28,7 @@ p {
   margin: 4px 2px;
 }*/
 a:link, a:visited {
-    background-color: pink;
+    background-color: /*pink*/ #F9665E;
     border: 15px;
   border-radius: 12px;
   border-color: black;
