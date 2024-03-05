@@ -12,15 +12,15 @@ p {
 	background-color: pink;
 }
 
-/*button {
+button {
 	background-color: pink;
 }
 
 .button-container {
 	display: flex;
-  }
-*/
+}
 
+/*
 .button-container {
 	display: flex;
     padding: 1px 6px;
@@ -29,4 +29,4 @@ p {
     color: black;
     background-color: pink;
     text-decoration: none;
-}
+}*/
