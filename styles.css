@@ -13,10 +13,9 @@ p {
 }
 
 .button {
-    display: flex;
     padding: 1px 6px;
     border: 1px outset buttonborder;
-    border-radius: 3px;
+    border-radius: 30px;
     color: black;
     background-color: pink;
     text-decoration: none;
