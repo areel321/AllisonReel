@@ -14,7 +14,8 @@ p {
 
 .button {
     padding: 1px 6px;
-    border: 1px outset buttonborder;
+    border-radius: 12px;
+    border: 1px;
     border-radius: 30px;
     font-color: black;
     background-color: pink;
