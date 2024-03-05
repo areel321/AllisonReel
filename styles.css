@@ -12,15 +12,15 @@ p {
 	background-color: pink;
 }
 
-button {
+/*button {
 	background-color: pink;
 }
 
 .button-container {
 	display: flex;
   }
+*/
 
-  
 a.button {
     padding: 1px 6px;
     border: 1px outset buttonborder;
