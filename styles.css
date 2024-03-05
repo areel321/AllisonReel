@@ -12,7 +12,7 @@ p {
 	background-color: pink;
 }
 
-.button {
+/*.button {
 	background-color: pink;
   	border: 10px;
 	border-radius: 12px;
@@ -23,16 +23,20 @@ p {
 	display: inline-block;
 	font-size: 16px;
 	margin: 4px 2px;
-}
-a:link, a:visited, a:hover, a:active {
+}*/
+a:link, a:visited {
   	background-color: pink;
-  	border: 10px;
+  	border: 15px;
 	border-radius: 12px;
+	border-color: black;
 	color: black;
-	padding: 1px 6px;
+	padding: 2px 8px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
+	font-size: 14px;
+	margin: 5px 1px;
+}
+a:hover, a.active {
+	color: white
 }
