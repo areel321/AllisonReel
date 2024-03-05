@@ -1,42 +1,43 @@
 body {
-	background-color: rgb(210, 232, 210);
-	font-family: sans-serif;
+  background-color: rgb(233, 237, 233);
+  font-family: sans-serif;
 }
 
 h1 {
-	color: lightblue;
-	font-weight: bold;
+  color: lightblue;
+  font-weight: bold;
 }
 
 p {
-	background-color: pink;
+  background-color: pink;
 }
 
+
 /*.button {
-	background-color: pink;
-  	border: 10px;
-	border-radius: 12px;
-	color: black;
-	padding: 1px 6px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
+  background-color: pink;
+  border: 10px;
+  border-radius: 12px;
+  color: black;
+  padding: 1px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
 }*/
 a:link, a:visited {
-  	background-color: pink;
-  	border: 15px;
-	border-radius: 12px;
-	border-color: black;
-	color: black;
-	padding: 2px 8px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 14px;
-	margin: 5px 1px;
+    background-color: pink;
+    border: 15px;
+  border-radius: 12px;
+  border-color: black;
+  color: black;
+  padding: 2px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px 1px;
 }
 a:hover, a.active {
-	color: white
+  color: white
 }
