@@ -12,22 +12,12 @@ p {
 	background-color: pink;
 }
 
-button {
-	background-color: pink;
-	padding: 25x;
-}
-
-a.button {
-	background-color: pink;
-}
-
-/*
-.button-container {
-	display: flex;
+.button {
+    display: flex;
     padding: 1px 6px;
     border: 1px outset buttonborder;
     border-radius: 3px;
     color: black;
     background-color: pink;
     text-decoration: none;
-}*/
+}
