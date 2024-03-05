@@ -10,8 +10,6 @@ h1 {
 
 p {
   background-color: #AFC7D0;
-  border: 10px;
-  border-radius: 12px;
 }
 
 
@@ -27,8 +25,9 @@ p {
   font-size: 16px;
   margin: 4px 2px;
 }*/
+
 a:link, a:visited {
-  background-color: #F9665E;
+  background-color: pink;
   border: 15px;
   border-radius: 12px;
   border-color: black;
