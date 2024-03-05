@@ -15,7 +15,7 @@ p {
 }
 
 
-/*.button {
+.button {
   background-color: /*pink*/ #F9665E;
   border: 10px;
   border-radius: 12px;
@@ -26,10 +26,10 @@ p {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-}*/
+}
 a:link, a:visited {
-    background-color: /*pink*/ #F9665E;
-    border: 15px;
+  background-color: /*pink*/ #F9665E;
+  border: 15px;
   border-radius: 12px;
   border-color: black;
   color: black;
