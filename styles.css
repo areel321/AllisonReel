@@ -1,22 +1,22 @@
 body {
-  background-color: /*rgb(233, 237, 233)*/ #EEF1E6;
+  background-color: #EEF1E6;
   font-family: sans-serif;
 }
 
 h1 {
-  color: /*lightblue*/ #799FCB;
+  color: #799FCB;
   font-weight: bold;
 }
 
 p {
-  background-color: /*pink*/#AFC7D0;
+  background-color: #AFC7D0;
   border: 10px;
   border-radius: 12px;
 }
 
 
-.button {
-  background-color: /*pink*/ #F9665E;
+/*.button {
+  background-color: #F9665E;
   border: 10px;
   border-radius: 12px;
   color: black;
@@ -26,9 +26,9 @@ p {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-}
+}*/
 a:link, a:visited {
-  background-color: /*pink*/ #F9665E;
+  background-color: #F9665E;
   border: 15px;
   border-radius: 12px;
   border-color: black;
