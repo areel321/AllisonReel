@@ -21,11 +21,12 @@ p {
   }
 */
 
-a.button {
+.button-container {
+	display: flex;
     padding: 1px 6px;
     border: 1px outset buttonborder;
     border-radius: 3px;
-    color: buttontext;
-    background-color: buttonface;
+    color: black;
+    background-color: pink;
     text-decoration: none;
 }
