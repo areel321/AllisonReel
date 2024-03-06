@@ -13,7 +13,7 @@ h2{
   font-weight: bolder;
 }
 
-p {
+.body {
   background-color: #AFC7D0;
   border: 10px;
   border-radius: 12px;
