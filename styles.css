@@ -9,43 +9,33 @@ h1 {
 }
 
 h2{
-  color: #FEC9C9;
+  color:#F9665E;
   font-weight: bolder;
+}
+
+.header {
+  margin: 5px 3px;
+  display: inline-block;
 }
 
 .body {
   background-color: #AFC7D0;
   border: 10px;
   border-radius: 12px;
-  padding: 1px 6px;
+  padding: 15px 15px;
 }
 
-
-/*.button {
-  background-color: pink;
-  border: 10px;
-  border-radius: 12px;
-  color: black;
-  padding: 1px 6px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-}*/
-
 a:link, a:visited, .button {
-  background-color: #F9665E;
-  border: 15px;
-  border-radius: 12px;
-  border-color: black;
+  background-color:  #FEC9C9 ;
+  border: 1px black;
+  border-radius: 12px; /*this makes it round*/
   color: black;
   padding: 2px 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  margin: 5px 1px;
+  margin: 5px 3px;
 }
 a:hover, a.active {
   color: white
