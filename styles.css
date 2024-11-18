@@ -5,20 +5,34 @@ color: #F9665E;
 color: #AFC7D0;
 }
 
-
+:root {
+  --dark-blue: #799FCB;
+  --off-white:  #EEF1E6;
+  --rose:  #F9665E;
+  --light-blue:  #AFC7D0;
+  --peach: #FFCC99;          /* Soft Peach */
+  --soft-pink: #F5A7B8;      /* Soft Pink */
+  --dusty-rose: #E4A8B3;     /* Dusty Rose */
+  --blush-pink: #F7D1D1;     /* Blush Pink */
+  --light-beige: #F4E3D7;    /* Light Beige */
+  --warm-charcoal: #4A4A4A;  /* Warm Charcoal */
+  --gold: #D4AF37;           /* Gold (Accent) */
+}
 
 body {
-  background-color: #EEF1E6;
+  background-color: var(--light-beige);
   font-family: sans-serif;
+  color: var(--warm-charcoal);
+  line-height: 1.6;
 }
 
 h1 {
-  color: #EEF1E6;
+  color: var(--off-white);
   font-weight: bold;
 }
 
 h2{
-  color:#F9665E;
+  color: var(--rose);
   font-weight: bolder;
 }
 
@@ -33,22 +47,25 @@ p{
 
 
 .header-container {
-  background-color: #AFC7D0;
-  padding: 5px;
-  border-radius: 12px; /*this makes it round*/
+  background-color: var(--dark-blue);
+  padding: 20px;
+  border-radius: 12px;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-title {
-  width: 64%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .header-buttons {
-  width: 36%;
   display: flex;
   flex-direction: row;
-  text-align: center;
+  flex-wrap: wrap;
 }
 
 .body {
@@ -66,10 +83,9 @@ p{
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 14px;
+  font-size: 20px;
   padding: 10px;
   margin: 5px;
-  height: 15px;
 }
 a:hover, a.active {
   color: #799FCB;
