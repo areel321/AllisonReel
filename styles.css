@@ -9,39 +9,38 @@ color: #AFC7D0;
   --dark-blue: #799FCB;
   --off-white:  #EEF1E6;
   --rose:  #F9665E;
-  --light-blue:  #AFC7D0;
-  --peach: #FFCC99;          /* Soft Peach */
-  --soft-pink: #F5A7B8;      /* Soft Pink */
-  --dusty-rose: #E4A8B3;     /* Dusty Rose */
   --blush-pink: #F7D1D1;     /* Blush Pink */
-  --light-beige: #F4E3D7;    /* Light Beige */
   --warm-charcoal: #4A4A4A;  /* Warm Charcoal */
-  --gold: #D4AF37;           /* Gold (Accent) */
+  --dark-lavender: #734f96;
 }
 
 
 body {
-  background-color: var(--off-white);
+  background-color: var(--blush-pink);
   font-family: sans-serif;
   color: var(--warm-charcoal);
   
 }
 
 h1 {
-  color: var(--off-white);
+  color: var(--rose);
   font-weight: bold;
   font-size: 30px;
-  padding: 0px;
 }
 
 h2{
-  color: var(--rose);
+  color: var(--dark-lavender);
   text-align: center;
   font-size: 50px;
 }
 
 h3{
   color: var(--dark-blue);
+}
+
+h4 {
+  color: var(--dark-lavender);
+  font-size: 20px;
 }
 
 p{
@@ -52,10 +51,9 @@ p{
 .header-container {
   position: sticky;
   top: 0;
-
-  background-color: var(--dark-blue);
+  background-color: var(--blush-pink);
+  
   padding: 5px;
-  border-radius: 12px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -75,19 +73,69 @@ p{
   flex-wrap: wrap;
 }
 
+
+.content {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .body {
+  background-color: var(--off-white);
+  width: 90%;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 1.6px;
+  
+}
+
+.home-right {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.photos {
   display: flex;
   flex-direction: row;
 }
 
-.content {
-  background-color: var(--blush-pink);
-  border-radius: 12px;
-  margin: 0.5em;
-  padding: 15px;
+table {
+  width: 100%;
+  border-collapse: collapse;  
+}
+
+tr {
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 20px; 
+}
+
+td {
+  flex: 1 1 calc(50% - 20px); 
+  padding: 20px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--off-white);
+  border-radius: 12px;
+  text-align: center;
 }
+
 
 .button, a:link, a:visited{
   background-color:  var(--rose);
@@ -108,7 +156,6 @@ a:hover, a.active {
 .footer-container{
   left: 0;
   bottom: 0;
-  background-color:var(--dusty-rose);
   width: 100%;
   border-radius: 12px;
   display: flex;
